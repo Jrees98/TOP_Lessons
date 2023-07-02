@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>document</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    const string = "The revolution will not be televised."
+    console.log(string);
+    console.log('I\'ve got no right to knowing what this thing does!') // can use \' instead of "What's" 
+
+    //Variables and using backticks ``
+    const first = "Hello there, "
+    const two = "what is your name?"
+    console.log(`${first}${two} My name is Jacob`)
+
+    //strings and number types
+    const myString = "123"
+    const myNum = Number(myString);
+    console.log(typeof myNum)
+
+    const myNum2 = 123;
+    const myString2 = myNum2.toString();
+    console.log(typeof myString2)
+
+    //strings respect line breaks. ONLY WORKS WITH BACKTICKS. Otherwise use \n for a line break
+    myString3 = `I liked the song a lot.
+    I gave it a score of 90%`
+    myString4 = "I went to the store. \n Then I went to school."
+
+    console.log(myString3)
+    console.log(myString4)
+
+  </script>
+
+  <button>Push me!</button>
+</body>
+</html>
