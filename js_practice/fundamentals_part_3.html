@@ -16,16 +16,26 @@
     }
     console.log(multiply(10,5))
 
-    function capitalize(sentence){
+    function capitalize(sentence = "You didn't enter anything"){
         lowerSentence = sentence.toLowerCase()
         return lowerSentence.charAt(0).toUpperCase() + lowerSentence.slice(1);
     }
     console.log(capitalize("wHaT iS yOUr naME?"))
+    console.log(capitalize())
 
     function lastLetter(text) {
         return text.charAt(text.length-1)
     }
     console.log(lastLetter("adsfhawetasdgadfga"))
+
+    let addition = (a,b) => a+b
+    console.log(addition(10,15))
+
+    let sum = (a,b) => {
+        let result = a+b
+        return result;
+    }
+    alert(sum(10,3))
 </script>
 <body>
 
